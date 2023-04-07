@@ -1,0 +1,177 @@
+body{
+direction: rtl;
+}
+.navbar-toggler{
+   margin-top: 25px;
+   }
+.navbar {
+ margin-top:-45px ;
+ background:rgb(224, 224, 246);
+ 
+ } 
+.navbar-brand{
+margin-top: 21px;
+ }
+ .pa{
+   font-weight: 800;
+   color:#80c8c7;
+ font-size: 20px;
+   border-radius: 70px;
+ border-color: #7c9da8;
+ }
+ .pa:hover{
+  color: rgb(11, 117, 197);
+ }
+
+.profile img{
+height: 9rem;
+ width: 8rem;
+ margin-top: 50px;
+ margin-left: 30px;
+  margin-bottom: 1rem;
+  border: 6px solid rgb(192, 192, 248);
+}
+.side-bar .nav a:hover{
+   background-color:rgb(192, 192, 248) ;
+}
+.side-bar .nav a:hover i{
+   margin-right: 1.5rem;
+}
+/**/
+/*coursus*/
+.courses{
+   margin-top: -38rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  
+.page_work{
+   margin-top: -38rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.page_quize{
+   margin-top: -38rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.marks{
+   margin-top: -35rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.marks .container{
+ padding-right: 80px;
+}
+.marks .container .row .col{
+   border: bottom 110px;
+   border-color:#80c8c7; 
+ 
+}
+.marks .container .table{
+   border-color: rgb(34, 34, 34);
+}
+.marks .container .row .col h4{
+   color:rgb(183, 183, 250);
+
+}
+@media (min-width:1600px){
+   
+   .marks .container{
+      padding-right:300px;
+   }}
+   @media (max-width:1800px){
+  
+      .marks .container{
+         padding-right:200px;
+      }}
+.actives{
+   margin-top: -35rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+}
+
+.actives .card h6{
+   color: rgb(140, 140, 244);
+}
+.refrence{
+   margin-top: -38rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.refrence .card h6{
+   color: rgb(113, 113, 167);
+}
+.profile1{
+   margin-top: -40rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;  
+}
+.profile1 .container{
+   min-height: calc(100vh - 20rem);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.profile1 .container form{
+   background-color:white;
+      width: 40rem;
+}
+
+.profile1 .container form h5{
+   font-size: 2.5rem;
+   text-transform: capitalize;
+   color:rgb(192, 192, 248) ;
+ 
+   text-align: center;
+}
+
+.profile1 .container form input{
+   text-align: center;
+}
+
+.profile1 .container form h4{
+   text-align: right;
+}
+
+.profile1 .container form p{
+   font-size: 1.7rem;
+   color:rgb(6, 48, 48);
+   padding-top: 1rem;
+}
+
+.profile1 .container .form-control-file{
+   background-color: rgb(245, 175, 175);
+}
+@media  (max-width:1200px){
+   
+   .profile1 .container {
+      padding-right:200px;
+   }
+}
+@media (max-width:1400px){
+ 
+   .profile1 .container {
+      padding-right:200px;
+   }  
+}
+@media (max-width:1600px){
+   
+   .profile1 .container {
+      padding-right:200px;
+   }  
+}
+
+
+   
+
+

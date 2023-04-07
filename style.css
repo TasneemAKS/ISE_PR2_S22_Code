@@ -1,0 +1,474 @@
+
+body{
+    direction:rtl;
+}
+.navbar-toggler{
+margin-top: 25px;
+}
+.navbar {
+margin-top:-40px ;
+background: rgb(208,244,243);
+background: radial-gradient(circle, rgba(208,244,243,0.987079866126138) 22%, rgba(107,174,246,1) 100%);
+} 
+.navbar-brand{
+  margin-top: 21px;
+}
+.pa{
+   font-weight: 500;
+   color: rgb(252, 172, 172);
+   border:none;
+   background-color:rgb(208,244,243);
+  border-radius: 45px; 
+}
+.pa:hover{
+  color: rgb(249, 142, 142); 
+}
+.pa1{
+  font-weight: 6500;
+  color:#23E4E4;
+  border:none;
+  background-color:rgb(208, 244, 243);
+ border-radius: 80px;  
+}
+.pa1:hover{
+  color:rgb(73, 188, 198);
+}
+.pa2{
+  font-weight: 6500;
+  color:#23E4E4;
+  border:none;
+  background-color:rgb(208, 244, 243);
+ border-radius: 50px;
+}
+.pa2:hover{
+  color:rgb(73, 188, 198);
+}
+.pa3{
+  font-weight: 6500;
+  color:#23E4E4;
+  border:none;
+  background-color:rgb(208, 244, 243);
+ border-radius: 50px;
+}
+.pa3:hover{
+  color:rgb(73, 188, 198);
+}
+.pa4{
+  font-weight: 500;
+  color:#23E4E4;
+  border:none;
+  background-color:rgb(208, 244, 243);
+ border-radius: 50px;
+}
+.pa4:hover{
+  color:rgb(73, 188, 198);
+}
+.pa5{
+  font-weight: 6500;
+  color:#23E4E4;
+  border:none;
+  background-color:rgb(208, 244, 243);
+ border-radius: 50px;
+}
+.pa5:hover{
+  color:rgb(73, 188, 198);
+}
+.dropdown-menu{
+  background-color:rgb(208, 244, 243) ;
+  width: 10%;
+  transition: 0.2s linear;
+}
+.dropdown-item{
+  color:#3991c1;
+  transition: 0.2s linear;
+}
+.pa6{
+  font-weight: 6500;
+  color:#00A8A4;
+  border:none;
+  background-color:rgb(208, 244, 243);
+ border-radius: 50px;
+}
+.pa6:hover{
+  background-color:rgb(142, 246, 243);
+}
+.box video{
+ position: sticky;
+ /* left: 0;*/
+ margin-top: 50px;
+  top: 0;
+  width: 100%;
+  height: 100%;
+ }
+/*--------------------------about--------------*/
+.about{
+  margin-top: 2rem;
+}
+.section-header{
+  text-align: center;
+}
+.section-header h4{
+  color:rgb(2, 156, 156);
+}
+.about .about-img {
+  position: relative;
+  margin: 60px 0 0 60px;
+}
+.about .about-img:before {
+  position: absolute;
+  inset: -60px 0 0 -60px;
+  z-index: -1;
+  content: "";
+  background: url("../img/about-bg.png") top left;
+  background-repeat: no-repeat;
+}
+@media (max-width: 575px) {
+  .about .about-img {
+    margin: 30px 0 0 30px;
+  }
+  .about .about-img:before {
+    inset: -30px 0 0 -30px;
+  }
+}
+@media (max-width: 768px) {
+  .about h3 {
+    font-size: 28px;
+  }
+}
+/*.about .nav-pills li+li {
+  margin-left: 40px;
+}*/
+.about .nav-link {
+  background: none;
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(#3991c1, 0.2);
+  color:#3991c1 ;
+ /* padding: 12px 0;*/
+  margin-bottom: -2px;
+  border-radius: 0;
+ }
+ .about .nav-link.active {
+   color:#3991c1 ;
+  background: none;
+  border-bottom: 3px solid rgba(#3991c1 );
+}
+@media (max-width: 575px) {
+  .about .nav-link {
+    font-size: 14px;
+  }
+}
+.about .tab-content h4 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 600;
+  color: #023f60;
+}
+.about .tab-content i {
+  font-size: 22px;
+  line-height: 0;
+  margin-right: 8px;
+  color:green;
+}
+/**********class student*****/
+.classt{
+  margin-top: 3rem; 
+}
+.section1-header{
+  text-align: center;
+}
+.section1-header h4{
+color:#115b83;
+}
+.card-text{
+  /*background-color: #115b83;*/
+  color:#055e8e;
+}
+/***********end class*/
+/*======state team================*/
+.testimonials {
+  margin-top: 5rem;
+  padding: 80px 0;
+ background: url("./imag/teambg.apg.jpg") no-repeat;
+ background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.section3-header{
+ text-align: center;
+   margin-top: -4rem;
+}
+.section3-header h4{
+  color:#718e9e;
+}
+
+.testimonials::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(var(--color-secondary-dark-rgb), 0.8);
+}
+
+.testimonials .section-header {
+  margin-bottom: 40px;
+}
+
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
+  overflow: hidden;
+}
+
+.testimonials .testimonial-item {
+  text-align: center;
+ 
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 80px;
+  border-radius: 50%;
+  border: 6px solid rgb(192, 192, 248);
+  margin: 0 auto;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+    margin: 0 0 15px 0;
+}
+.testimonials .testimonial-item .stars {
+  margin-bottom: 15px;
+}
+.testimonials .testimonial-item .stars i {
+  color: rgb(183, 250, 181);
+  margin: 0 1px;
+}
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+}
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(rgb(149, 12, 12));
+  opacity: 0.5;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #c1a8f6;
+  opacity: 1;
+}
+@media (min-width: 992px) {
+  .testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+/*-------end team----الكادر التدريسي-----*/
+/*------start الطلاب المميزين/*/
+.students h4{
+  color:#f978d2;
+}
+.students h6{
+color:#3f43fd;
+}
+.students h5{
+  color:#9496f6;
+  }
+  .students p{
+    color:#bcbdf1;
+    }
+.team-item .team-text {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 17px solid ;
+  border-color: #e8e8f3;
+  border-radius: 300px;
+  transition: .5s;
+}
+
+.team-item:hover .team-text {
+  border-color:#f3fcfc; 
+}
+
+/*------end الطلاب اللميزين*/
+/*start تواصل معنا */
+.contact{
+  margin-top: 2rem;
+}
+.contact .info {
+  width: 100%;
+  background: #fff;
+  
+}
+.section-title{
+
+color: #3991c1;
+
+}
+.contact .info i {
+  font-size: 20px;
+  color: #3f43fd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #f0f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h6 {
+  padding: 0 0 0 60px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #555698;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #0205a1;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #1acc8d;
+  color: #fff;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #189dd2;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #1acc8d;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #34e5a6;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*end تواصل معنا/*/
+/*---------start footer-------------*/
+.footer{
+  background-color: #407086;
+  color:white;
+}
+.footer-info h6{
+  color:#efe9f7;
+}
+.footer a{
+  text-decoration:none ;
+  color: #efe9f7;
+}
+/*********end footer*****/
+
+
+ 
+
